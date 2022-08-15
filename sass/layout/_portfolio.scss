@@ -54,9 +54,8 @@
       color: var(--accent-color);}
     .portfolio-text{
       font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 1.88;
+      @include font (16px, 400, 1.88);
+    
       letter-spacing: 0.03em;
       color: var(--secondary-color);
     }
@@ -87,9 +86,8 @@
     
       font-family: 'Roboto';
       font-style: normal;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 1.55;
+      @include font (18px, 400, 1.55);
+     
       letter-spacing: 0.03em;
       color: #FFFFFF;
       padding: 63px 24px;

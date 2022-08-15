@@ -1,8 +1,7 @@
 .work{
     font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
+    @include font (36px, 700, 1.16);
+  
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
@@ -21,9 +20,8 @@
     position: absolute;
     display: flex;
     font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+    @include font (14px, 700, 1.14);
+
     text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;

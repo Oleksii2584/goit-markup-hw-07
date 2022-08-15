@@ -1,9 +1,8 @@
 .client-title{
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
+  @include font (36px, 700, 1.17);
+
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--accent-color);
@@ -14,9 +13,7 @@
 }
 
 .client-link{
-display: flex;
-justify-content: center;
-align-items: center;
+@extend %align;
 width: 170px;
 height: 92px;
 border:1px solid #AFB1B8;

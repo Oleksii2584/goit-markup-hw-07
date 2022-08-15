@@ -13,17 +13,14 @@
   .logo-footer{color: var(--main-color);
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
+    @include font ( 26px, 700, 1.19);
     margin-bottom: 20px;
   }
   .logo-footer-studio{
     font-family: 'Raleway';
   font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  @include font ( 26px, 700, 1.19);
+  
   letter-spacing: 0.03em;
   color: var(--white-color);
   }
@@ -31,17 +28,15 @@
   .footer-list{
   margin-bottom: 9px;}
   .address-footer{font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
+    @include font (14px, 400, 1.71);
+    
     letter-spacing: 0.03em;
     color: var(--white-color);
   }
     .contact-footer{
       font-style: normal;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 1.71;
+      @include font (14px, 400, 1.71);
+      
       letter-spacing: 0.03em;
       color: rgba(255, 255, 255, 0.6);
     }
@@ -52,9 +47,8 @@
     .footer-social-title{
       font-family: 'Roboto';
       font-style: normal;
-      font-weight: 700;
-      font-size: 14px;
-      line-height: 1.14;
+      @include font (14px, 700, 1.14);
+      
       letter-spacing: 0.03em;
       text-transform: uppercase;
       color: #FFFFFF;
@@ -62,9 +56,7 @@
     
   
     .footer-social-list-link{
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      @extend %align;
       width: 44px;
       height: 44px;
       border-radius: 50%;

@@ -24,19 +24,17 @@
   
   .key-points-title{
     font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+    @include font (14px, 700, 1.14);
+    
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 10px;
   }
   .key-points-p{
     font-family: 'Roboto';
+    @include font (14px, 400, 1.9);
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.9;
+   
     letter-spacing: 0.03em;
     color: var(--secondary-color);
     
