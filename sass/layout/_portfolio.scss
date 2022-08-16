@@ -2,20 +2,20 @@
 .portfolio-section{
     padding: 94px 0;
   }
-  .menu-portfolio{
+  .portfolio-menu{
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
   }
-  .portfolio-list:not(:last-child){
+  .portfolio-menu__list:not(:last-child){
     margin-right: 8px;}
     .navigate.current{ color:var(--main-color);
     }
-    .button-portfolio.current{ color: var(--white-color);
+    .portfolio-button.current{ color: var(--white-color);
       background-color:var(--main-color);
     }
     
-    .button-portfolio{
+    .portfolio-button{
       font-style: inherit;
       font-weight: 500;
       font-size: 16px;
@@ -30,14 +30,14 @@
       border: none;
       padding: 6px 22px;
     }
-    .menu-main{
+    .portfolio-main-menu{
     display: flex;
     flex-wrap: wrap;
     row-gap: 30px;
     column-gap: 30px;
     }
   
-    .main-text{
+    .portfolio-main-menu__info{
     padding: 20px 24px;
     border: 1px solid #EEEEEE;
     border-top: none;
@@ -45,14 +45,15 @@
     
     
     
-    .portfolio-title{
+    .portfolio-main-menu__title{
       font-style: normal;
       font-weight: 700;
       font-size: 18px;
       line-height: 2;
       letter-spacing: 0.06em;
       color: var(--accent-color);}
-    .portfolio-text{
+
+    .portfolio-main-menu__text{
       font-style: normal;
       @include font (16px, 400, 1.88);
     
@@ -60,8 +61,8 @@
       color: var(--secondary-color);
     }
   
-    .portfolio-link:hover,
-    .portfolio-link:focus{
+    .portfolio-main-menu__link:hover,
+    .portfolio-main-menu__link:focus{
       display: block;
       box-shadow: 
       0px 1px 1px rgba(0, 0, 0, 0.12), 
@@ -92,8 +93,8 @@
       color: #FFFFFF;
       padding: 63px 24px;
       background-color: rgba(33, 150, 243, 0.9);
-        .portfolio-link:hover &,
-        .portfolio-link:focus &{
+        .portfolio-main-menu__link:hover &,
+        .portfolio-main-menu__link:focus &{
           transform: translate(0, 0);
         }
       

@@ -27,18 +27,19 @@
   .logo{
   color: var(--main-color);
   font-family: 'Raleway', sans-serif;
-  @include font (26px, 700, 1.19);
+  @include font (26px, 700, 1.19);}
   
+  .logo__header{
   margin-right: 93px;
-  padding: 32px 0;}
-  .logo-studio{
+  }
+  .logo__black{
   color: #000000;
   }
 .head-block{
     border-bottom: 1px solid #ECECEC;
     }
     
-    .page-header-container{
+    .container-page-header{
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -48,11 +49,11 @@
       display: flex;
       align-items: center;
     }
-    .page-head-menu{
+    .page-nav__menu{
       display: flex;
       align-items: center;
     }
-    .page-head-list:not(:last-child){
+    .page-nav__list:not(:last-child){
     margin-right: 50px;
     }
     
