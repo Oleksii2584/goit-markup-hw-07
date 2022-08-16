@@ -29,10 +29,10 @@
   font-family: 'Raleway', sans-serif;
   @include font (26px, 700, 1.19);}
   
-  .logo__header{
+  .page-nav__logo{
   margin-right: 93px;
   }
-  .logo__black{
+  .page-nav__logo__black{
   color: #000000;
   }
 .head-block{
@@ -57,6 +57,14 @@
     margin-right: 50px;
     }
     
+    .page-nav-contact{
+      display: flex;
+      align-items: center;
+    }
+    .page-nav-contact__list:not(:last-child){
+    margin-right: 50px;
+    }
+
     .head-contact{ 
     color: var(--secondary-color);
     padding: 32px 0;
@@ -73,7 +81,7 @@
     
  
     
-    .mail{
+    .head-contact__mail{
       margin-right: 10px;
       fill: currentColor;
     }

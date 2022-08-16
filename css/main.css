@@ -347,11 +347,11 @@ button:hover, button:focus {
   line-height: 1.19;
 }
 
-.logo__header {
+.page-nav__logo {
   margin-right: 93px;
 }
 
-.logo__black {
+.page-nav__logo__black {
   color: #000000;
 }
 
@@ -379,6 +379,15 @@ button:hover, button:focus {
   margin-right: 50px;
 }
 
+.page-nav-contact {
+  display: flex;
+  align-items: center;
+}
+
+.page-nav-contact__list:not(:last-child) {
+  margin-right: 50px;
+}
+
 .head-contact {
   color: var(--secondary-color);
   padding: 32px 0;
@@ -393,7 +402,7 @@ button:hover, button:focus {
   color: var(--main-color);
 }
 
-.mail {
+.head-contact__mail {
   margin-right: 10px;
   fill: currentColor;
 }
@@ -689,7 +698,7 @@ button:hover, button:focus {
   padding-top: 12px;
 }
 
-.footer-social__title {
+.container-footer__title {
   font-family: "Roboto";
   font-style: normal;
   font-size: 14px;
